@@ -7,3 +7,13 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+puts "creating"
+
+Restaurant.create!(name: "mcdo", address: "lille", phone_number: 0445454, category: "belgian")
+Restaurant.create!(name: "mcdo", address: "lille", phone_number: 0445454, category: "belgian")
+Restaurant.create!(name: "mcdo", address: "lille", phone_number: 0445454, category: "belgian")
+Restaurant.create!(name: "mcdo", address: "lille", phone_number: 0445454, category: "belgian")
+Restaurant.create!(name: "mcdo", address: "lille", phone_number: 0445454, category: "belgian")
+
+puts "end"

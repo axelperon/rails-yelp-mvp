@@ -1,0 +1,14 @@
+
+<h1> <%= "List restaurants " %> </h1>
+
+
+<ul class='indexli' >
+
+<% @restaurants.each do |restaurant| %>
+<li>
+   <%= link_to "#{restaurant.name}", restaurant_path(restaurant), class:"liens"  %>
+<% end %>
+</li>
+</ul>
+
+<%= link_to "create restaurant", new_restaurant_path, class:"create"  %>

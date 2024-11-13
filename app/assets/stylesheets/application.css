@@ -13,3 +13,69 @@
  *= require_tree .
  *= require_self
  */
+ body {
+  background-color: antiquewhite;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style pour les éléments de liste centrés */
+.indexli {
+  text-align: center;
+  list-style-type: none;
+  padding: 10px 0;
+  background-color: antiquewhite;
+}
+
+/* Style pour les liens dans les listes */
+.liens {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Effet au survol des liens */
+.liens:hover {
+  color: white;
+  background-color: #8b5e3c; /* Couleur plus foncée pour le survol */
+  border-radius: 5px;
+}
+
+/* Style pour le bouton de création */
+.create {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #8b5e3c; /* Une couleur chaude pour contraster */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Effet au survol du bouton */
+.create:hover {
+  background-color: #6f4b3a; /* Plus foncé au survol */
+}
+
+/* Style pour le titre principal */
+h1 {
+  text-align: center;
+  background-color: antiquewhite;
+  color: #4f3d2a; /* Couleur douce pour le titre */
+  padding: 20px 0;
+  font-family: 'Georgia', serif;
+  font-size: 36px;
+  margin-top: 0;
+}
+
+/* Optionnel : Ajouter un peu d'ombre aux titres */
+h1 {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
